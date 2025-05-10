@@ -1,30 +1,15 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Mail } from "lucide-react";
 
 export const socialNetworks = [
     {
-        id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "http://linkedin.com/in/brandon-posdeley-1b052b1b0/",
     },
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Mail size={30} strokeWidth={1} />,
+        src: "mailto:nahuelposdeley10@gmail.com",
     },
 ];
 
@@ -145,45 +130,31 @@ export const dataPortfolio = [
     {
         id: 3,
         title: "Delivery UI (mobile)",
-        image: "/delivery.jpg",
-        urlGithub: "#!",
+        image: "/delivery.png",
+        urlGithub: "https://github.com/nahuelposdeley10/delivery-app-ui",
         urlDemo: "",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Fitness (Mobile)",
+        image: "/fitness.png",
+        urlGithub: "https://github.com/nahuelposdeley10/fitness-app",
+        urlDemo: "",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "RoundMaster (mobile)",
+        image: "/roundMaster.png",
+        urlGithub: "https://github.com/nahuelposdeley10/RoundMaster",
+        urlDemo: "",
     },
     {
         id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Camera App (mobile)",
+        image: "/camera-app.png",
+        urlGithub: "http://github.com/nahuelposdeley10/camera-app",
+        urlDemo: "",
     },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
 ];
 
 export const dataTestimonials = [
