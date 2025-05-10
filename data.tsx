@@ -144,10 +144,10 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
+        title: "Delivery UI (mobile)",
+        image: "/delivery.jpg",
         urlGithub: "#!",
-        urlDemo: "#!",
+        urlDemo: "",
     },
     {
         id: 4,
